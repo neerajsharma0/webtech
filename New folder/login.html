@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>
+		Courses Galore -- E-Learning Portal
+	</title>
+	<script type="text/javascript" src="validation.js"></script>
+	<script type="text/javascript" src="date.js"></script>
+	
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+	<header>
+		<h1  id="top-head">ART </h1>
+		<h3 id="head-descript">Knowledge at a click.</h3>	
+	</header>
+	<div align="right" id="date"></div>
+	
+	<br>
+	<div id="contact-area">
+    <form method="POST" name="login">
+            <label>Username</label>
+            <input type="text" name="username"/><br>
+            <label>Password:</label>
+            <input type="password" name="password"/><br>
+            <input type="submit"/ value="Login"><br>
+    </form>
+    <br><br><br><br>
+        <h3>Don't have an account, Sign UP!</h3>
+        <form method="POST" name="signup">
+            <label>Enter name</label>
+            <input type="text" name="name" value=""/><br>
+            <label>Choose Username</label>
+            <input type="text" name="username" value=""/><br>
+            <label>Enter Email</label>
+            <input type="text" name="email" value=""/><br>
+            <label>Create Password:</label>
+            <input type="password" name="password" value=""/><br>
+            <input type="button" value="Create Account" onclick="validate(this.form)"/>
+            <input type="reset"/>
+        </form>
+    </center>
+	</div>	
+	<footer id="foot">
+		Made in MAIT!
+	</footer>
+</body>
+</html>
